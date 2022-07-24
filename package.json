@@ -11,6 +11,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "esbuild-linux-64": "^0.14.49",
     "path": "^0.12.7",
     "vue": "^3.2.37"
   },
