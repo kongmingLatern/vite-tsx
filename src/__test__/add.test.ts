@@ -7,3 +7,17 @@ describe('first test', () => {
     expect(useAdd(1, 1.1)).toBe(2.1)
   });
 })
+describe('second test', () => {
+  it('object => object', () => {
+    const options = {
+      username: 'a',
+      age: 19
+    }
+
+    expect(options).toEqual({
+      username: 'a',
+      age: 19
+    })
+
+  });
+})
